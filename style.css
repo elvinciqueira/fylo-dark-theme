@@ -273,13 +273,10 @@ input {
 
 footer {
   background-color: var(--primary-color-dark-blue-3);
-  margin-top: 9em;
+  margin-top: 2.5em;
   padding: 8em;
 }
 
-.image-footer {
-  margin-right: 8px;
-}
 
 .contact-info-container {
   align-items: center;
@@ -294,10 +291,11 @@ footer {
 
 .contact-info-location-item {
   display: flex;
+  height: 16px;
 }
 
-.contact-info-location-item {
-  height: 16px;
+.contact-info-location-item img{
+  margin-right: 1em;
 }
 
 .contact-info-contacts-item  {
@@ -307,7 +305,7 @@ footer {
 }
 
 .contact-info-contacts-item img {
-  margin-right: 1.2em;
+  margin-right: 1.4em;
   height: 18px;
 }
 
