@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Raleway:wght@400;700&display=swap');
+
+:root {
+  --dark-blue-sign-up-backgroud: hsl(217, 28%, 15%);
+  --dark-blue-main-background: hsl(218, 28%, 13%);
+  --dark-blue-footer-background: hsl(216, 53%, 9%);
+  --dark-blue-testimonials-background: hsl(219, 30%, 18%); 
+}
+
+* {
+  border: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: var(--dark-blue-main-background);
+  font-size: 14px;
+  max-width: 1440px;
+}
